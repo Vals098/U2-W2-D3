@@ -1,0 +1,20 @@
+// background
+$bg-color: #640fc5;
+// text
+$tx_color: #f4f4f4;
+// headings
+$h_color:#28064f;
+// buttons
+$blue_btt: #0e6cff;
+$orange_btt: #ff8700;
+$green_btt: #4caf50;
+
+header, .hero {
+    background-color: $bg-color;
+    color: $tx_color;
+    h1, h3{
+        color: $h_color;
+    }
+}
+
+

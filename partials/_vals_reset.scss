@@ -1,0 +1,59 @@
+/* 1. Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Improve Text */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 4. Media responsive */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 5. Coherent Forms */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 6. Prevent text overflow */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 7. Clean Lists */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 8. Clean Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}

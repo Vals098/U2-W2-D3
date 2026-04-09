@@ -1,0 +1,24 @@
+body{
+  margin: 2em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+margin-left: 3em;
+}
+
+nav{
+  margin-right: 3em;
+  ul li {
+    display: inline-block;
+  }
+}
+
+.floater {
+  max-width: 400px;
+  position: absolute;
+}
