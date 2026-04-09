@@ -1,24 +1,69 @@
-body{
-  margin: 2em;
-}
+$py_ext: 2em;
+$px_ext: 4em;
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 2em 4em;
 }
 
-h3 {
-margin-left: 3em;
-}
-
-nav{
-  margin-right: 3em;
+nav {
   ul li {
     display: inline-block;
   }
 }
 
-.floater {
-  max-width: 400px;
-  position: absolute;
+.hero {
+  padding: 5em 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  position: relative;
 }
+
+.hero-text {
+  max-width: 500px;
+}
+
+p {
+  margin-bottom: 1.5em;
+  font-size: 0.8em;
+}
+
+.buttons {
+  display: flex;
+  gap: 1em;
+}
+
+button {
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.floater {
+  position: absolute;
+  right: 4em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.floater img {
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  border: 1px solid #f4f4f4;
+}
+
+.card img {
+  border-radius: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 1.5em;
+  padding: 2em 4em;
+}
+

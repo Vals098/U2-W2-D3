@@ -58,6 +58,16 @@ a {
   color: inherit;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
 header, .hero {
   background-color: #640fc5;
   color: #f4f4f4;
@@ -66,27 +76,98 @@ header h1, header h3, .hero h1, .hero h3 {
   color: #28064f;
 }
 
-body {
-  margin: 2em;
+.btn-primary {
+  background-color: #0e6cff;
+  color: white;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-warning {
+  background-color: #ff8700;
+  color: white;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-success {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 2em 4em;
 }
 
-h3 {
-  margin-left: 3em;
-}
-
-nav {
-  margin-right: 3em;
-}
 nav ul li {
   display: inline-block;
 }
 
+.hero {
+  padding: 5em 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  position: relative;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+p {
+  margin-bottom: 1.5em;
+  font-size: 0.8em;
+}
+
+.buttons {
+  display: flex;
+  gap: 1em;
+}
+
+button {
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 .floater {
-  max-width: 400px;
   position: absolute;
+  right: 4em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.floater img {
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border: 1px solid #f4f4f4;
+}
+
+.card img {
+  border-radius: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 1.5em;
+  padding: 2em 4em;
+}
+
+h1 {
+  font-weight: 900;
+  color: red;
 }/*# sourceMappingURL=style.css.map */

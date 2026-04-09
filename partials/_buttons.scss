@@ -1,0 +1,27 @@
+$buttons: (
+  primary: #0e6cff,
+  warning: #ff8700,
+  success: #4caf50
+);
+
+// @each $color in $button-colors {
+//   .btn-#{$color} {
+//     background-color: $color;
+//     color: white;
+//     padding: 0.6em 1.2em;
+//     border: none;
+//     border-radius: 8px;
+//     cursor: pointer;
+//   }
+// }
+
+@each $name, $color in $buttons {
+  .btn-#{$name} {
+    background-color: $color;
+    color: white;
+    padding: 0.6em 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
